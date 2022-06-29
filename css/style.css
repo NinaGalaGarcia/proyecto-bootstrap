@@ -8,3 +8,8 @@
     
     
 }
+
+.footer {
+    display: flex;
+    justify-content: right;
+}
