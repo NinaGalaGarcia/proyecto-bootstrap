@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cosa- Contactanos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header> 
+        
+        <h1 class="titulo">Contactanos</h1>
+    
+
+        <nav>
+            <ul>
+                <li class="item" id="item"><a href="../index.html" class="item"> Volver </a></li>
+                <li class="item" id="item"><a href="./noticias.html" class="item">Noticias</a></li>
+                <li class="item" id="item"><a href="./criticas.html" class="item">Críticas</a></li>
+                <li class="item" id="item"><a href="./reportajes.html" class="item"> Reportajes</a></li>
+                <li class="item" id="item"><a href="./contacto.html" class="item"> Contactanos</a></li>
+            
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <main>
+
+        <h2 class="tituloform"> Completá el siguiente formulario y envianos tu mensaje.</h2>
+
+        <form action="" class="formulario">
+
+            <div class="form">
+            <label for="nombre"> <a href="" class="form"></a> Nombre y Apellido </a></label>
+            <input type="text" id="nombre" placeholder="Nombre y Apellido" required>
+            </div>
+       
+            
+            <div class="form">
+            <label for="telefono" ><a href="" class="form"></a> Teléfono </a></label>
+            <input type="tel" id="telefono" placeholder="1144444444" required>
+            </div>
+
+            
+            <div class="form">
+            <label for="email" ><a href="" class="form"></a> Correo Electrónico </a></label>
+            <input type="email" id="email" placeholder="ejemplo@gamil.com" required>
+            </div>
+
+           
+            <div class="form">
+            <label for="edad" ><a href="" class="form"></a> Fecha de Nacimiento </a></label>
+            <input type="date" id="edad" required>
+            </div>
+
+            <div class="form">
+            <label for="sexo" ><a href="" class="form"></a> Sexo</a></label>
+            <select name="sexo" id="sexo">
+                <option value="mujer">Hombre</option>
+                <option value="hombre">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+            </div>
+
+            
+
+           <div class="form">
+            <label for="texto" class="formulario--item"> <a href="" class="form"></a> Escribe tu Comentario Aquí</a></label>
+            <input type="textarea" id="texto" required>
+            </div>
+
+            <input type="submit" value="Enviar formulario">
+
+            <input type="reset" value="Borrar todo">
+       
+        </form>
+
+    </main>
+
+    <footer>
+        <div>
+            <h4> Síguenos</h4>
+            <ul>
+                <li> <a href="" class="redes"> Facebook </a></li>
+                <li> <a href="" class="redes"> Instagram </a></li>
+                <li> <a href="" class="redes"> Twitter </a></li>
+                <li> <a href="" class="redes"> Email </a></li>
+            </ul>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
